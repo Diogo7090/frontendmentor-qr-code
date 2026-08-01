@@ -13,14 +13,60 @@
     .attribution { font-size: 0.6875rem; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
 
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+
+    }
+
+    body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: hsl(216, 15%, 48%);
+      min-height: 100vh;
+      font-family: url(https://fonts.google.com/specimen/Outfit);
+
+    }
+
+    main{
+      display: flex;
+      justify-content: center;
+    }
     .card{
-      width: 35px;
-      background-color: hsl(218, 44%, 22%);
+      max-width: 320px;
+      background-color: hsl(0, 0%, 100%);
+      margin: 0 auto;
+      border-radius: 10px;
+      padding: 16px;
     }
 
     .card-img{
       width: 100%;
       padding: 8px;
+      border-radius: 8px;
+    }
+
+    .card-img img{
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    h1{
+      text-align: center;
+      margin-top: 10px;
+      font-weight: 700px;
+    }
+
+    p{
+      text-align: center;
+      color:hsl(216, 15%, 48%);
+      margin: 10px;
+      font-size: 15px;
+      font-weight: 400px;
     }
   </style>
 </head>
